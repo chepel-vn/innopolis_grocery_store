@@ -7,8 +7,8 @@ addons:
   # -pip install pre-commit
 
 install:
-  - pip install -r requirements.txt
+  -pip install -r requirements.txt
 
 script:
-  - pre-commit run --all-files
-  - pytest
+  -pre-commit run --all-files
+  -pytest

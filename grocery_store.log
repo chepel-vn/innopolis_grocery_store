@@ -2473,3 +2473,791 @@ DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
 DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://localhost:51026/session/d95c19f40596e61b0044a4ce4288cd8e {}
 DEBUG:urllib3.connectionpool:http://localhost:51026 "DELETE /session/d95c19f40596e61b0044a4ce4288cd8e HTTP/1.1" 200 14
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG:faker.factory:Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG:faker.factory:Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG:faker.factory:Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG:faker.factory:Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG:faker.factory:Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG:faker.factory:Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG:faker.factory:Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG:faker.factory:Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG:faker.factory:Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG:faker.factory:Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG:faker.factory:Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG:faker.factory:Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG:faker.factory:Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG:faker.factory:Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG:faker.factory:Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG:faker.factory:Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG:faker.factory:Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_96.0.4664 HTTP/1.1" 200 12
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:55900
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session HTTP/1.1" 200 787
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/window/maximize {}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/window/maximize HTTP/1.1" 200 51
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/url {"url": "https://berpress.github.io/online-grocery-store/"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "css selector", "value": "[id=\"email_inline\"]"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element/633cc577-be15-44b1-b809-3a2bd8cb5c80/value {"text": "apples", "value": ["a", "p", "p", "l", "e", "s"], "id": "633cc577-be15-44b1-b809-3a2bd8cb5c80"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element/633cc577-be15-44b1-b809-3a2bd8cb5c80/value HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element {"using": "css selector", "value": ".btn.search-btn"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/element/1da640d0-840e-420f-9c6d-359a1d6996f2/click {"id": "1da640d0-840e-420f-9c6d-359a1d6996f2"}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "POST /session/0db5d4ed4ffc431240893204af621de3/element/1da640d0-840e-420f-9c6d-359a1d6996f2/click HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:test_search:Searching by 'apples'.
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3/source {}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "GET /session/0db5d4ed4ffc431240893204af621de3/source HTTP/1.1" 200 4365
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://localhost:55900/session/0db5d4ed4ffc431240893204af621de3 {}
+DEBUG:urllib3.connectionpool:http://localhost:55900 "DELETE /session/0db5d4ed4ffc431240893204af621de3 HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_96.0.4664 HTTP/1.1" 200 12
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:51205/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:51205
+DEBUG:urllib3.connectionpool:http://localhost:51205 "POST /session HTTP/1.1" 200 787
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:51205/session/6c937327a49c98286584c0ace710c2fa/window/maximize {}
+DEBUG:urllib3.connectionpool:http://localhost:51205 "POST /session/6c937327a49c98286584c0ace710c2fa/window/maximize HTTP/1.1" 200 51
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:51205/session/6c937327a49c98286584c0ace710c2fa/url {"url": "https://berpress.github.io/online-grocery-store/"}
+DEBUG:urllib3.connectionpool:http://localhost:51205 "POST /session/6c937327a49c98286584c0ace710c2fa/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:51205/session/6c937327a49c98286584c0ace710c2fa/element {"using": "css selector", "value": "[id=\"email_inline\"]"}
+DEBUG:urllib3.connectionpool:http://localhost:51205 "POST /session/6c937327a49c98286584c0ace710c2fa/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:51205/session/6c937327a49c98286584c0ace710c2fa/element/bb66a7cf-72b3-460b-a6eb-2cbcda3ff91b/value {"text": "dYbTtyqQBiXpyfpJdXTg", "value": ["d", "Y", "b", "T", "t", "y", "q", "Q", "B", "i", "X", "p", "y", "f", "p", "J", "d", "X", "T", "g"], "id": "bb66a7cf-72b3-460b-a6eb-2cbcda3ff91b"}
+DEBUG:urllib3.connectionpool:http://localhost:51205 "POST /session/6c937327a49c98286584c0ace710c2fa/element/bb66a7cf-72b3-460b-a6eb-2cbcda3ff91b/value HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:51205/session/6c937327a49c98286584c0ace710c2fa/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:51205 "POST /session/6c937327a49c98286584c0ace710c2fa/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:51205/session/6c937327a49c98286584c0ace710c2fa/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:51205 "POST /session/6c937327a49c98286584c0ace710c2fa/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:51205/session/6c937327a49c98286584c0ace710c2fa/element {"using": "css selector", "value": ".btn.search-btn"}
+DEBUG:urllib3.connectionpool:http://localhost:51205 "POST /session/6c937327a49c98286584c0ace710c2fa/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:51205/session/6c937327a49c98286584c0ace710c2fa/element/68c83c88-60c4-4805-b7a4-3203d0c2de68/click {"id": "68c83c88-60c4-4805-b7a4-3203d0c2de68"}
+DEBUG:urllib3.connectionpool:http://localhost:51205 "POST /session/6c937327a49c98286584c0ace710c2fa/element/68c83c88-60c4-4805-b7a4-3203d0c2de68/click HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:test_search:Searching by 'dYbTtyqQBiXpyfpJdXTg'.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:51205/session/6c937327a49c98286584c0ace710c2fa/element {"using": "xpath", "value": "//h3[text() = 'Nothing here, see github']"}
+DEBUG:urllib3.connectionpool:http://localhost:51205 "POST /session/6c937327a49c98286584c0ace710c2fa/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://localhost:51205/session/6c937327a49c98286584c0ace710c2fa {}
+DEBUG:urllib3.connectionpool:http://localhost:51205 "DELETE /session/6c937327a49c98286584c0ace710c2fa HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_96.0.4664 HTTP/1.1" 200 12
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55618/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:55618
+DEBUG:urllib3.connectionpool:http://localhost:55618 "POST /session HTTP/1.1" 200 785
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55618/session/ab0880ffc03993c55572636b38f28ba4/window/maximize {}
+DEBUG:urllib3.connectionpool:http://localhost:55618 "POST /session/ab0880ffc03993c55572636b38f28ba4/window/maximize HTTP/1.1" 200 51
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55618/session/ab0880ffc03993c55572636b38f28ba4/url {"url": "https://berpress.github.io/online-grocery-store/"}
+DEBUG:urllib3.connectionpool:http://localhost:55618 "POST /session/ab0880ffc03993c55572636b38f28ba4/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://localhost:55618/session/ab0880ffc03993c55572636b38f28ba4 {}
+DEBUG:urllib3.connectionpool:http://localhost:55618 "DELETE /session/ab0880ffc03993c55572636b38f28ba4 HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_96.0.4664 HTTP/1.1" 200 12
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55645/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:55645
+DEBUG:urllib3.connectionpool:http://localhost:55645 "POST /session HTTP/1.1" 200 786
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55645/session/204484e129f353d7d43cb5a8cda02992/window/maximize {}
+DEBUG:urllib3.connectionpool:http://localhost:55645 "POST /session/204484e129f353d7d43cb5a8cda02992/window/maximize HTTP/1.1" 200 51
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55645/session/204484e129f353d7d43cb5a8cda02992/url {"url": "https://berpress.github.io/online-grocery-store/"}
+DEBUG:urllib3.connectionpool:http://localhost:55645 "POST /session/204484e129f353d7d43cb5a8cda02992/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://localhost:55645/session/204484e129f353d7d43cb5a8cda02992 {}
+DEBUG:urllib3.connectionpool:http://localhost:55645 "DELETE /session/204484e129f353d7d43cb5a8cda02992 HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG:faker.factory:Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG:faker.factory:Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG:faker.factory:Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG:faker.factory:Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG:faker.factory:Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG:faker.factory:Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG:faker.factory:Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG:faker.factory:Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG:faker.factory:Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG:faker.factory:Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG:faker.factory:Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG:faker.factory:Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG:faker.factory:Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG:faker.factory:Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG:faker.factory:Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG:faker.factory:Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG:faker.factory:Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_96.0.4664 HTTP/1.1" 200 12
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60684/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:60684
+DEBUG:urllib3.connectionpool:http://localhost:60684 "POST /session HTTP/1.1" 200 788
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60684/session/3e54b0b521283de4cba03975ac2c7bad/window/maximize {}
+DEBUG:urllib3.connectionpool:http://localhost:60684 "POST /session/3e54b0b521283de4cba03975ac2c7bad/window/maximize HTTP/1.1" 200 51
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60684/session/3e54b0b521283de4cba03975ac2c7bad/url {"url": "https://berpress.github.io/online-grocery-store/"}
+DEBUG:urllib3.connectionpool:http://localhost:60684 "POST /session/3e54b0b521283de4cba03975ac2c7bad/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60684/session/3e54b0b521283de4cba03975ac2c7bad/element {"using": "css selector", "value": "[id=\"email_inline\"]"}
+DEBUG:urllib3.connectionpool:http://localhost:60684 "POST /session/3e54b0b521283de4cba03975ac2c7bad/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60684/session/3e54b0b521283de4cba03975ac2c7bad/element/8fbf49a6-9cea-473c-8e49-57998d33dd9c/value {"text": "apples", "value": ["a", "p", "p", "l", "e", "s"], "id": "8fbf49a6-9cea-473c-8e49-57998d33dd9c"}
+DEBUG:urllib3.connectionpool:http://localhost:60684 "POST /session/3e54b0b521283de4cba03975ac2c7bad/element/8fbf49a6-9cea-473c-8e49-57998d33dd9c/value HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60684/session/3e54b0b521283de4cba03975ac2c7bad/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:60684 "POST /session/3e54b0b521283de4cba03975ac2c7bad/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60684/session/3e54b0b521283de4cba03975ac2c7bad/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:60684 "POST /session/3e54b0b521283de4cba03975ac2c7bad/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60684/session/3e54b0b521283de4cba03975ac2c7bad/element {"using": "css selector", "value": ".btn.search-btn"}
+DEBUG:urllib3.connectionpool:http://localhost:60684 "POST /session/3e54b0b521283de4cba03975ac2c7bad/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60684/session/3e54b0b521283de4cba03975ac2c7bad/element/f76a5e32-ca37-4804-a3b8-761491aff511/click {"id": "f76a5e32-ca37-4804-a3b8-761491aff511"}
+DEBUG:urllib3.connectionpool:http://localhost:60684 "POST /session/3e54b0b521283de4cba03975ac2c7bad/element/f76a5e32-ca37-4804-a3b8-761491aff511/click HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:test_search:Searching by 'apples'.
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:60684/session/3e54b0b521283de4cba03975ac2c7bad/source {}
+DEBUG:urllib3.connectionpool:http://localhost:60684 "GET /session/3e54b0b521283de4cba03975ac2c7bad/source HTTP/1.1" 200 4703
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:60684/session/3e54b0b521283de4cba03975ac2c7bad/source {}
+DEBUG:urllib3.connectionpool:http://localhost:60684 "GET /session/3e54b0b521283de4cba03975ac2c7bad/source HTTP/1.1" 200 4703
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://localhost:60684/session/3e54b0b521283de4cba03975ac2c7bad {}
+DEBUG:urllib3.connectionpool:http://localhost:60684 "DELETE /session/3e54b0b521283de4cba03975ac2c7bad HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_96.0.4664 HTTP/1.1" 200 12
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:61485/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:61485
+DEBUG:urllib3.connectionpool:http://localhost:61485 "POST /session HTTP/1.1" 200 787
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:61485/session/9782b0030017474adeac400d5cc44342/window/maximize {}
+DEBUG:urllib3.connectionpool:http://localhost:61485 "POST /session/9782b0030017474adeac400d5cc44342/window/maximize HTTP/1.1" 200 51
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:61485/session/9782b0030017474adeac400d5cc44342/url {"url": "https://berpress.github.io/online-grocery-store/"}
+DEBUG:urllib3.connectionpool:http://localhost:61485 "POST /session/9782b0030017474adeac400d5cc44342/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:61485/session/9782b0030017474adeac400d5cc44342/element {"using": "css selector", "value": "[id=\"email_inline\"]"}
+DEBUG:urllib3.connectionpool:http://localhost:61485 "POST /session/9782b0030017474adeac400d5cc44342/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:61485/session/9782b0030017474adeac400d5cc44342/element/78fd4606-d0b5-4164-b30f-6e6aa5cafc8b/value {"text": "NRywbcvoGmjPYKStDbxW", "value": ["N", "R", "y", "w", "b", "c", "v", "o", "G", "m", "j", "P", "Y", "K", "S", "t", "D", "b", "x", "W"], "id": "78fd4606-d0b5-4164-b30f-6e6aa5cafc8b"}
+DEBUG:urllib3.connectionpool:http://localhost:61485 "POST /session/9782b0030017474adeac400d5cc44342/element/78fd4606-d0b5-4164-b30f-6e6aa5cafc8b/value HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:61485/session/9782b0030017474adeac400d5cc44342/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:61485 "POST /session/9782b0030017474adeac400d5cc44342/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:61485/session/9782b0030017474adeac400d5cc44342/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:61485 "POST /session/9782b0030017474adeac400d5cc44342/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:61485/session/9782b0030017474adeac400d5cc44342/element {"using": "css selector", "value": ".btn.search-btn"}
+DEBUG:urllib3.connectionpool:http://localhost:61485 "POST /session/9782b0030017474adeac400d5cc44342/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:61485/session/9782b0030017474adeac400d5cc44342/element/64af609a-fd05-4520-be86-a40c9d2baedd/click {"id": "64af609a-fd05-4520-be86-a40c9d2baedd"}
+DEBUG:urllib3.connectionpool:http://localhost:61485 "POST /session/9782b0030017474adeac400d5cc44342/element/64af609a-fd05-4520-be86-a40c9d2baedd/click HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:test_search:Searching by 'NRywbcvoGmjPYKStDbxW'.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:61485/session/9782b0030017474adeac400d5cc44342/element {"using": "xpath", "value": "//h3[text() = 'Nothing here, see github']"}
+DEBUG:urllib3.connectionpool:http://localhost:61485 "POST /session/9782b0030017474adeac400d5cc44342/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://localhost:61485/session/9782b0030017474adeac400d5cc44342 {}
+DEBUG:urllib3.connectionpool:http://localhost:61485 "DELETE /session/9782b0030017474adeac400d5cc44342 HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_96.0.4664 HTTP/1.1" 200 12
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:57558/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:57558
+DEBUG:urllib3.connectionpool:http://localhost:57558 "POST /session HTTP/1.1" 200 787
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:57558/session/b54be9e3c5a8ca789487c8c4287fbc4e/window/maximize {}
+DEBUG:urllib3.connectionpool:http://localhost:57558 "POST /session/b54be9e3c5a8ca789487c8c4287fbc4e/window/maximize HTTP/1.1" 200 51
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:57558/session/b54be9e3c5a8ca789487c8c4287fbc4e/url {"url": "https://berpress.github.io/online-grocery-store/"}
+DEBUG:urllib3.connectionpool:http://localhost:57558 "POST /session/b54be9e3c5a8ca789487c8c4287fbc4e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://localhost:57558/session/b54be9e3c5a8ca789487c8c4287fbc4e {}
+DEBUG:urllib3.connectionpool:http://localhost:57558 "DELETE /session/b54be9e3c5a8ca789487c8c4287fbc4e HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_96.0.4664 HTTP/1.1" 200 12
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:57672/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:57672
+DEBUG:urllib3.connectionpool:http://localhost:57672 "POST /session HTTP/1.1" 200 787
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:57672/session/ebce1c888c993971dffd9dbd5d48a88b/window/maximize {}
+DEBUG:urllib3.connectionpool:http://localhost:57672 "POST /session/ebce1c888c993971dffd9dbd5d48a88b/window/maximize HTTP/1.1" 200 51
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:57672/session/ebce1c888c993971dffd9dbd5d48a88b/url {"url": "https://berpress.github.io/online-grocery-store/"}
+DEBUG:urllib3.connectionpool:http://localhost:57672 "POST /session/ebce1c888c993971dffd9dbd5d48a88b/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://localhost:57672/session/ebce1c888c993971dffd9dbd5d48a88b {}
+DEBUG:urllib3.connectionpool:http://localhost:57672 "DELETE /session/ebce1c888c993971dffd9dbd5d48a88b HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG:faker.factory:Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG:faker.factory:Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG:faker.factory:Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG:faker.factory:Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG:faker.factory:Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG:faker.factory:Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG:faker.factory:Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG:faker.factory:Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG:faker.factory:Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG:faker.factory:Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG:faker.factory:Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG:faker.factory:Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG:faker.factory:Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG:faker.factory:Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG:faker.factory:Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG:faker.factory:Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG:faker.factory:Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_96.0.4664 HTTP/1.1" 200 12
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:62658/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:62658
+DEBUG:urllib3.connectionpool:http://localhost:62658 "POST /session HTTP/1.1" 200 787
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:62658/session/6ae3d3ef5cf9a589f1925697f1fb17bd/window/maximize {}
+DEBUG:urllib3.connectionpool:http://localhost:62658 "POST /session/6ae3d3ef5cf9a589f1925697f1fb17bd/window/maximize HTTP/1.1" 200 51
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:62658/session/6ae3d3ef5cf9a589f1925697f1fb17bd/url {"url": "https://berpress.github.io/online-grocery-store/"}
+DEBUG:urllib3.connectionpool:http://localhost:62658 "POST /session/6ae3d3ef5cf9a589f1925697f1fb17bd/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:62658/session/6ae3d3ef5cf9a589f1925697f1fb17bd/element {"using": "css selector", "value": "[id=\"email_inline\"]"}
+DEBUG:urllib3.connectionpool:http://localhost:62658 "POST /session/6ae3d3ef5cf9a589f1925697f1fb17bd/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:62658/session/6ae3d3ef5cf9a589f1925697f1fb17bd/element/a0d30ec1-60ed-4ead-8361-51555bee5ad5/value {"text": "apples", "value": ["a", "p", "p", "l", "e", "s"], "id": "a0d30ec1-60ed-4ead-8361-51555bee5ad5"}
+DEBUG:urllib3.connectionpool:http://localhost:62658 "POST /session/6ae3d3ef5cf9a589f1925697f1fb17bd/element/a0d30ec1-60ed-4ead-8361-51555bee5ad5/value HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:62658/session/6ae3d3ef5cf9a589f1925697f1fb17bd/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:62658 "POST /session/6ae3d3ef5cf9a589f1925697f1fb17bd/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:62658/session/6ae3d3ef5cf9a589f1925697f1fb17bd/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:62658 "POST /session/6ae3d3ef5cf9a589f1925697f1fb17bd/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:62658/session/6ae3d3ef5cf9a589f1925697f1fb17bd/element {"using": "css selector", "value": ".btn.search-btn"}
+DEBUG:urllib3.connectionpool:http://localhost:62658 "POST /session/6ae3d3ef5cf9a589f1925697f1fb17bd/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:62658/session/6ae3d3ef5cf9a589f1925697f1fb17bd/element/74b66bd5-6ec3-427a-9566-a5db8401030d/click {"id": "74b66bd5-6ec3-427a-9566-a5db8401030d"}
+DEBUG:urllib3.connectionpool:http://localhost:62658 "POST /session/6ae3d3ef5cf9a589f1925697f1fb17bd/element/74b66bd5-6ec3-427a-9566-a5db8401030d/click HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:test_search:Searching by 'apples'.
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:62658/session/6ae3d3ef5cf9a589f1925697f1fb17bd/source {}
+DEBUG:urllib3.connectionpool:http://localhost:62658 "GET /session/6ae3d3ef5cf9a589f1925697f1fb17bd/source HTTP/1.1" 200 4699
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:62658/session/6ae3d3ef5cf9a589f1925697f1fb17bd/source {}
+DEBUG:urllib3.connectionpool:http://localhost:62658 "GET /session/6ae3d3ef5cf9a589f1925697f1fb17bd/source HTTP/1.1" 200 4699
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://localhost:62658/session/6ae3d3ef5cf9a589f1925697f1fb17bd {}
+DEBUG:urllib3.connectionpool:http://localhost:62658 "DELETE /session/6ae3d3ef5cf9a589f1925697f1fb17bd HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_96.0.4664 HTTP/1.1" 200 12
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:51197/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:51197
+DEBUG:urllib3.connectionpool:http://localhost:51197 "POST /session HTTP/1.1" 200 787
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:51197/session/8096b4971ee4c5c8c0cd40d543d8cdc0/window/maximize {}
+DEBUG:urllib3.connectionpool:http://localhost:51197 "POST /session/8096b4971ee4c5c8c0cd40d543d8cdc0/window/maximize HTTP/1.1" 200 51
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:51197/session/8096b4971ee4c5c8c0cd40d543d8cdc0/url {"url": "https://berpress.github.io/online-grocery-store/"}
+DEBUG:urllib3.connectionpool:http://localhost:51197 "POST /session/8096b4971ee4c5c8c0cd40d543d8cdc0/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:51197/session/8096b4971ee4c5c8c0cd40d543d8cdc0/element {"using": "css selector", "value": "[id=\"email_inline\"]"}
+DEBUG:urllib3.connectionpool:http://localhost:51197 "POST /session/8096b4971ee4c5c8c0cd40d543d8cdc0/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:51197/session/8096b4971ee4c5c8c0cd40d543d8cdc0/element/043d992e-7e9b-4cd5-9f58-235cb29b96e3/value {"text": "qfYXcWySDizFOeaWhOLq", "value": ["q", "f", "Y", "X", "c", "W", "y", "S", "D", "i", "z", "F", "O", "e", "a", "W", "h", "O", "L", "q"], "id": "043d992e-7e9b-4cd5-9f58-235cb29b96e3"}
+DEBUG:urllib3.connectionpool:http://localhost:51197 "POST /session/8096b4971ee4c5c8c0cd40d543d8cdc0/element/043d992e-7e9b-4cd5-9f58-235cb29b96e3/value HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:51197/session/8096b4971ee4c5c8c0cd40d543d8cdc0/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:51197 "POST /session/8096b4971ee4c5c8c0cd40d543d8cdc0/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:51197/session/8096b4971ee4c5c8c0cd40d543d8cdc0/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:51197 "POST /session/8096b4971ee4c5c8c0cd40d543d8cdc0/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:51197/session/8096b4971ee4c5c8c0cd40d543d8cdc0/element {"using": "css selector", "value": ".btn.search-btn"}
+DEBUG:urllib3.connectionpool:http://localhost:51197 "POST /session/8096b4971ee4c5c8c0cd40d543d8cdc0/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:51197/session/8096b4971ee4c5c8c0cd40d543d8cdc0/element/69037084-b1cb-4a90-99e1-879d369bb34a/click {"id": "69037084-b1cb-4a90-99e1-879d369bb34a"}
+DEBUG:urllib3.connectionpool:http://localhost:51197 "POST /session/8096b4971ee4c5c8c0cd40d543d8cdc0/element/69037084-b1cb-4a90-99e1-879d369bb34a/click HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:test_search:Searching by 'qfYXcWySDizFOeaWhOLq'.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:51197/session/8096b4971ee4c5c8c0cd40d543d8cdc0/element {"using": "xpath", "value": "//h3[text() = 'Nothing here, see github']"}
+DEBUG:urllib3.connectionpool:http://localhost:51197 "POST /session/8096b4971ee4c5c8c0cd40d543d8cdc0/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://localhost:51197/session/8096b4971ee4c5c8c0cd40d543d8cdc0 {}
+DEBUG:urllib3.connectionpool:http://localhost:51197 "DELETE /session/8096b4971ee4c5c8c0cd40d543d8cdc0 HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_96.0.4664 HTTP/1.1" 200 12
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60065/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:60065
+DEBUG:urllib3.connectionpool:http://localhost:60065 "POST /session HTTP/1.1" 200 788
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60065/session/c46ec7498852c0bef4fc319189d27971/window/maximize {}
+DEBUG:urllib3.connectionpool:http://localhost:60065 "POST /session/c46ec7498852c0bef4fc319189d27971/window/maximize HTTP/1.1" 200 51
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60065/session/c46ec7498852c0bef4fc319189d27971/url {"url": "https://berpress.github.io/online-grocery-store/"}
+DEBUG:urllib3.connectionpool:http://localhost:60065 "POST /session/c46ec7498852c0bef4fc319189d27971/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60065/session/c46ec7498852c0bef4fc319189d27971/element {"using": "css selector", "value": ".cart-quantity"}
+DEBUG:urllib3.connectionpool:http://localhost:60065 "POST /session/c46ec7498852c0bef4fc319189d27971/element HTTP/1.1" 404 1030
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60065/session/c46ec7498852c0bef4fc319189d27971/element {"using": "css selector", "value": ".cart-quantity"}
+DEBUG:urllib3.connectionpool:http://localhost:60065 "POST /session/c46ec7498852c0bef4fc319189d27971/element HTTP/1.1" 404 1030
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60065/session/c46ec7498852c0bef4fc319189d27971/element {"using": "css selector", "value": ".cart-quantity"}
+DEBUG:urllib3.connectionpool:http://localhost:60065 "POST /session/c46ec7498852c0bef4fc319189d27971/element HTTP/1.1" 404 1030
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60065/session/c46ec7498852c0bef4fc319189d27971/element {"using": "css selector", "value": ".cart-quantity"}
+DEBUG:urllib3.connectionpool:http://localhost:60065 "POST /session/c46ec7498852c0bef4fc319189d27971/element HTTP/1.1" 404 1030
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60065/session/c46ec7498852c0bef4fc319189d27971/element {"using": "css selector", "value": ".cart-quantity"}
+DEBUG:urllib3.connectionpool:http://localhost:60065 "POST /session/c46ec7498852c0bef4fc319189d27971/element HTTP/1.1" 404 1030
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60065/session/c46ec7498852c0bef4fc319189d27971/element {"using": "css selector", "value": ".cart-quantity"}
+DEBUG:urllib3.connectionpool:http://localhost:60065 "POST /session/c46ec7498852c0bef4fc319189d27971/element HTTP/1.1" 404 1030
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60065/session/c46ec7498852c0bef4fc319189d27971/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:60065 "POST /session/c46ec7498852c0bef4fc319189d27971/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60065/session/c46ec7498852c0bef4fc319189d27971/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:60065 "POST /session/c46ec7498852c0bef4fc319189d27971/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60065/session/c46ec7498852c0bef4fc319189d27971/element/6ed36a92-89d5-421e-8722-03fc1445e5cb/click {"id": "6ed36a92-89d5-421e-8722-03fc1445e5cb"}
+DEBUG:urllib3.connectionpool:http://localhost:60065 "POST /session/c46ec7498852c0bef4fc319189d27971/element/6ed36a92-89d5-421e-8722-03fc1445e5cb/click HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60065/session/c46ec7498852c0bef4fc319189d27971/element {"using": "css selector", "value": ".cart-quantity"}
+DEBUG:urllib3.connectionpool:http://localhost:60065 "POST /session/c46ec7498852c0bef4fc319189d27971/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:60065/session/c46ec7498852c0bef4fc319189d27971/element/e774f709-b2a3-4088-9d1d-4a3c0c4eb703/text {"id": "e774f709-b2a3-4088-9d1d-4a3c0c4eb703"}
+DEBUG:urllib3.connectionpool:http://localhost:60065 "GET /session/c46ec7498852c0bef4fc319189d27971/element/e774f709-b2a3-4088-9d1d-4a3c0c4eb703/text HTTP/1.1" 200 13
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:60065/session/c46ec7498852c0bef4fc319189d27971/element/e774f709-b2a3-4088-9d1d-4a3c0c4eb703/text {"id": "e774f709-b2a3-4088-9d1d-4a3c0c4eb703"}
+DEBUG:urllib3.connectionpool:http://localhost:60065 "GET /session/c46ec7498852c0bef4fc319189d27971/element/e774f709-b2a3-4088-9d1d-4a3c0c4eb703/text HTTP/1.1" 200 13
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://localhost:60065/session/c46ec7498852c0bef4fc319189d27971 {}
+DEBUG:urllib3.connectionpool:http://localhost:60065 "DELETE /session/c46ec7498852c0bef4fc319189d27971 HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG:faker.factory:Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG:faker.factory:Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG:faker.factory:Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG:faker.factory:Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG:faker.factory:Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG:faker.factory:Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG:faker.factory:Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG:faker.factory:Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG:faker.factory:Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG:faker.factory:Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG:faker.factory:Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG:faker.factory:Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG:faker.factory:Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG:faker.factory:Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG:faker.factory:Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG:faker.factory:Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG:faker.factory:Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_96.0.4664 HTTP/1.1" 200 12
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:63767
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session HTTP/1.1" 200 788
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/window/maximize {}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/window/maximize HTTP/1.1" 200 51
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/url {"url": "https://berpress.github.io/online-grocery-store/"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element {"using": "css selector", "value": "[id=\"email_inline\"]"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element/83c5f0fc-eb8a-4547-91aa-4a53f6c621d2/value {"text": "apples", "value": ["a", "p", "p", "l", "e", "s"], "id": "83c5f0fc-eb8a-4547-91aa-4a53f6c621d2"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element/83c5f0fc-eb8a-4547-91aa-4a53f6c621d2/value HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element {"using": "css selector", "value": ".btn.search-btn"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element/e0051c81-17ed-49af-9deb-04ea0f1a620e/click {"id": "e0051c81-17ed-49af-9deb-04ea0f1a620e"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element/e0051c81-17ed-49af-9deb-04ea0f1a620e/click HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:test_search:Searching by 'apples'.
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/source {}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "GET /session/d7697e9504c3b89ebe089cac9a0d6525/source HTTP/1.1" 200 4703
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/source {}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "GET /session/d7697e9504c3b89ebe089cac9a0d6525/source HTTP/1.1" 200 4703
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/url {"url": "https://berpress.github.io/online-grocery-store/"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element {"using": "css selector", "value": "[id=\"email_inline\"]"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element/7a28a0f0-054a-431b-b022-4675b5ed3a0c/value {"text": "DLkliDfrJANMnFuaLmkU", "value": ["D", "L", "k", "l", "i", "D", "f", "r", "J", "A", "N", "M", "n", "F", "u", "a", "L", "m", "k", "U"], "id": "7a28a0f0-054a-431b-b022-4675b5ed3a0c"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element/7a28a0f0-054a-431b-b022-4675b5ed3a0c/value HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element HTTP/1.1" 404 1034
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element {"using": "css selector", "value": ".btn.search-btn"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element/c1a8668f-f72e-4624-9a51-4b7d8665296e/click {"id": "c1a8668f-f72e-4624-9a51-4b7d8665296e"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element/c1a8668f-f72e-4624-9a51-4b7d8665296e/click HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:test_search:Searching by 'DLkliDfrJANMnFuaLmkU'.
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element {"using": "xpath", "value": "//h3[text() = 'Nothing here, see github']"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/url {"url": "https://berpress.github.io/online-grocery-store/"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element {"using": "css selector", "value": ".cart-quantity"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element HTTP/1.1" 404 1030
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element {"using": "css selector", "value": ".cart-quantity"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element HTTP/1.1" 404 1030
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element {"using": "css selector", "value": ".cart-quantity"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element HTTP/1.1" 404 1030
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element {"using": "css selector", "value": ".cart-quantity"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element HTTP/1.1" 404 1030
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element {"using": "css selector", "value": ".cart-quantity"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element HTTP/1.1" 404 1030
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element {"using": "css selector", "value": ".cart-quantity"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element HTTP/1.1" 404 1030
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element {"using": "xpath", "value": ".//button[text() = 'Buy']"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element/f843b3fe-4fd8-4eb0-87c5-02fde467d720/click {"id": "f843b3fe-4fd8-4eb0-87c5-02fde467d720"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element/f843b3fe-4fd8-4eb0-87c5-02fde467d720/click HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element {"using": "css selector", "value": ".cart-quantity"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "POST /session/d7697e9504c3b89ebe089cac9a0d6525/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element/c2643cf8-074a-4064-af4c-d2e6d05026a4/text {"id": "c2643cf8-074a-4064-af4c-d2e6d05026a4"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "GET /session/d7697e9504c3b89ebe089cac9a0d6525/element/c2643cf8-074a-4064-af4c-d2e6d05026a4/text HTTP/1.1" 200 13
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525/element/c2643cf8-074a-4064-af4c-d2e6d05026a4/text {"id": "c2643cf8-074a-4064-af4c-d2e6d05026a4"}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "GET /session/d7697e9504c3b89ebe089cac9a0d6525/element/c2643cf8-074a-4064-af4c-d2e6d05026a4/text HTTP/1.1" 200 13
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525 {}
+DEBUG:urllib3.connectionpool:http://localhost:63767 "DELETE /session/d7697e9504c3b89ebe089cac9a0d6525 HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request

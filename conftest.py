@@ -19,7 +19,7 @@ def pytest_addoption(parser):
     )
 
 
-@pytest.fixture()
+@pytest.fixture(scope="session")
 def app(request):
     url = request.config.getoption("--url")
     # s = Service(ChromeDriverManager().install())

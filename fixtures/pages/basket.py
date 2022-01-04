@@ -13,7 +13,7 @@ class BasketPage(BasePage):
         return buy_button
 
     def get_cart_quantity(self):
-        element = self.custom_find_element(BL.CART_QUANTITY, 3)
+        element = self.custom_find_element(BL.BASKET_QUANTITY, 3)
         if not element:
             result = 0
         else:
@@ -26,7 +26,7 @@ class BasketPage(BasePage):
             element = self.custom_find_element(BL.CART, 3)
             if element:
                 element.click()
-        except TimeoutError:
+        except Exception:
             result = 1
         else:
             result = 0
@@ -38,7 +38,7 @@ class BasketPage(BasePage):
             element = self.custom_find_element(BL.BUY_BTN, 3)
             if element:
                 element.click()
-        except TimeoutError:
+        except Exception:
             result = 1
         else:
             result = 0

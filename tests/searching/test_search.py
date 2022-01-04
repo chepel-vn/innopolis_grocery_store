@@ -45,10 +45,10 @@ class TestSearch:
         cart_quantity_new = app.basket.get_cart_quantity()
         assert cart_quantity_new == cart_quantity + 1
 
-    def test_delete_from_cart_some_goods(self, app):
-        """
-        Check of situation with add to cart some goods
-        """
-        app.open_page()
-        result = app.basket.call()
-        assert result == 0
+    # def test_delete_from_cart_some_goods(self, app):
+    #     """
+    #     Check of situation with add to cart some goods
+    #     """
+    #     app.open_page()
+    #     result = app.basket.call()
+    #     assert result == 0

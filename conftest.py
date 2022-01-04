@@ -4,7 +4,6 @@ import pytest
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from fixtures.pages.application import Application
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 
 logging.basicConfig(filename="grocery_store.log", level=logging.DEBUG)

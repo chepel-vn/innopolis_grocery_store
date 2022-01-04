@@ -1,5 +1,5 @@
 [![Build Status](https://app.travis-ci.com/chepel-vn/innopolis_grocery_store.svg?branch=master)](https://app.travis-ci.com/chepel-vn/innopolis_grocery_store)
-1) Клонирование себе репозитория с github на локальную машину
+2) Клонирование себе репозитория с github на локальную машину
     git clone <ссылка на репозиторий>
 3) Включить виртуальное окружение
     python -m venv env

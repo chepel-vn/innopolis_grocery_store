@@ -23,11 +23,11 @@ def pytest_addoption(parser):
 @pytest.fixture()
 def app(request):
     url = request.config.getoption("--url")
-    s = Service(ChromeDriverManager().install())
+    # s = Service(ChromeDriverManager().install())
     chrome_options = Options()
     chrome_options.headless = True
-    driver = webdriver.Chrome(service=s)
-    # driver = webdriver.Chrome(ChromeDriverManager().install())
+    # driver = webdriver.Chrome(service=s)
+    driver = webdriver.Chrome(ChromeDriverManager().install())
     driver.maximize_window()
     logger.info(f"Start app on {url}.")
     app = Application(driver, url)

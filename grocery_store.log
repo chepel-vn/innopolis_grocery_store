@@ -3261,3 +3261,21 @@ DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
 DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://localhost:63767/session/d7697e9504c3b89ebe089cac9a0d6525 {}
 DEBUG:urllib3.connectionpool:http://localhost:63767 "DELETE /session/d7697e9504c3b89ebe089cac9a0d6525 HTTP/1.1" 200 14
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:test_search:Searching by 'apples'.
+INFO:test_search:Searching by 'SuhGdXmuLBTUBUElbIbH'.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:test_search:Searching by 'apples'.
+INFO:test_search:Searching by 'flfwYiwbYuUSckxoTGei'.

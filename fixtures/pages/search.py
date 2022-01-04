@@ -7,6 +7,7 @@ from selenium.webdriver.remote.webelement import WebElement
 
 logger = logging.getLogger(__name__)
 
+
 class SearchPage(BasePage):
     def _search_input(self) -> WebElement:
         element = self.custom_find_element(LC.SEARCH_STRING_INPUT)
@@ -29,7 +30,10 @@ class SearchPage(BasePage):
         try:
             result = type(self._buy_button()) == WebElement
         except TimeoutError:
-            logger.warning(f"Выход из процедуры проверки готовности к покупке по истечении времени ожидания.")
+            logger.warning(
+                "Выход из процедуры проверки готовности к "
+                "покупке по истечении времени ожидания."
+            )
         finally:
             return result
 
@@ -44,7 +48,9 @@ class SearchPage(BasePage):
             if self.is_get_ready_to_buy():
                 self._search_button().click()
         except TimeoutError:
-            logger.warning(f"Выход из процедуры поиска произошел так как истекло время ожидания.")
+            logger.warning(
+                "Выход из процедуры поиска произошел так как истекло время ожидания."
+            )
         else:
             result = 0
         finally:

@@ -5,6 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 logger = logging.getLogger(__name__)
 
+
 class BasePage:
     def __init__(self, app):
         self.app = app
@@ -17,9 +18,8 @@ class BasePage:
                 message=f"Can't find element by locator={locator}",
             )
         except TimeoutError:
-            logger.warning(f"Выход из процедуры поиска элемента по истечении времени ожидания.")
+            logger.warning(
+                "Выход из процедуры поиска элемента по истечении времени ожидания."
+            )
         finally:
             return element
-
-
-

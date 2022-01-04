@@ -1,5 +1,4 @@
 import logging
-import time
 
 from fixtures.models.search import SearchData
 
@@ -14,12 +13,14 @@ class TestSearch:
         Check of situation with some exists goods
         """
         app.open_page()
-        input_data = SearchData('apples')
+        input_data = SearchData("apples")
         result = app.searching.search(input_data)
         if result == 0:
             logger.info(f"Searching by '{input_data.search_string}'.")
-        assert "Delicious red apples" in app.driver.page_source and \
-               "Russian potatoes" not in app.driver.page_source
+        assert (
+            "Delicious red apples" in app.driver.page_source
+            and "Russian potatoes" not in app.driver.page_source
+        )
 
     def test_search_not_exists_goods(self, app):
         """
@@ -51,6 +52,3 @@ class TestSearch:
         app.open_page()
         result = app.basket.call()
         assert result == 0
-
-
-

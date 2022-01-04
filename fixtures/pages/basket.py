@@ -6,6 +6,7 @@ from selenium.webdriver.remote.webelement import WebElement
 
 logger = logging.getLogger(__name__)
 
+
 class BasketPage(BasePage):
     def _buy_button(self) -> WebElement:
         buy_button = self.custom_find_element(BL.BUY_BTN)
@@ -25,7 +26,7 @@ class BasketPage(BasePage):
             element = self.custom_find_element(BL.CART, 3)
             if element:
                 element.click()
-        except:
+        except TimeoutError:
             result = 1
         else:
             result = 0
@@ -37,7 +38,7 @@ class BasketPage(BasePage):
             element = self.custom_find_element(BL.BUY_BTN, 3)
             if element:
                 element.click()
-        except:
+        except TimeoutError:
             result = 1
         else:
             result = 0

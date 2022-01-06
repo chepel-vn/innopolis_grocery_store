@@ -9,5 +9,5 @@ install:
 
 script:
   - pre-commit run --all-files
-#  - pytest --html=report.html --self-contained-html
-  - pytest
+  - pytest --html=report.html --self-contained-html
+#  - pytest

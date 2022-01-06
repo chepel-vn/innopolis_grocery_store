@@ -9,4 +9,4 @@ install:
 
 script:
   - pre-commit run --all-files
-  - pytest --html=report.html --delf-contained-html
+  - pytest --html=report.html --self-contained-html

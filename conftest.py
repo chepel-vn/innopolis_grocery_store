@@ -24,19 +24,10 @@ def pytest_addoption(parser):
 def app(request):
     url = request.config.getoption("--url")
     s = Service(ChromeDriverManager().install())
-
-    # chrome_options.headless = True
-    # chrome_options.add_argument("--kiosk")
-    # driver = webdriver.Chrome(service=s)
-    # driver = webdriver.Chrome(ChromeDriverManager().install())
-    # driver = webdriver.Chrome(options=chrome_options)
-
     chrome_options = Options()
     chrome_options.add_argument("--headless")
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-    # str = ChromeDriverManager().install()
-    # print(str)
+    # chrome_options.add_argument("--no-sandbox")
+    # chrome_options.add_argument("--disable-dev-shm-usage")
     driver = webdriver.Chrome(service=s, options=chrome_options)
 
     driver.maximize_window()

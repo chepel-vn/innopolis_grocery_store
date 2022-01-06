@@ -35,7 +35,7 @@ class TestSearch:
             is_empty = app.searching.is_empty_search()
         assert is_empty
 
-    def test_add_to_cart_some_goods(self, app):
+    def test_add_to_basket_some_goods(self, app):
         """
         Check of situation with add to cart some goods
         """
@@ -45,10 +45,52 @@ class TestSearch:
         cart_quantity_new = app.basket.get_cart_quantity()
         assert cart_quantity_new == cart_quantity + 1
 
-    # def test_delete_from_cart_some_goods(self, app):
-    #     """
-    #     Check of situation with add to cart some goods
-    #     """
-    #     app.open_page()
-    #     result = app.basket.call()
-    #     assert result == 0
+    def test_delete_from_basket_some_goods(self, app):
+        """
+        Check of situation with delete some goods from the basket
+        """
+        app.open_page()
+        app.searching.buy_any_goods()
+        cart_quantity = app.basket.get_cart_quantity()
+        cart_quantity_new = cart_quantity
+        if app.basket.call():
+            if app.basket.close_item():
+                if app.basket.close():
+                    cart_quantity_new = app.basket.get_cart_quantity()
+
+        assert cart_quantity == cart_quantity_new + 1
+
+    def test_add_to_basket_the_same_goods(self, app):
+        """
+        Check of situation with add the same goods from the basket
+        """
+        app.open_page()
+        app.searching.buy_any_goods()
+        total_price = 0
+        total_price_new = 0
+        if app.basket.call():
+            total_price = app.basket.get_total_price()
+            if total_price:
+                total_price_new = total_price
+                if app.basket.add_item():
+                    total_price_new = app.basket.get_total_price()
+        assert total_price_new == 2 * total_price
+
+    def test_remove_from_basket_the_same_goods(self, app):
+        """
+        Check of situation with add the same goods from the basket
+        """
+        app.open_page()
+        app.searching.buy_any_goods()
+        total_price = 0
+        total_price_new = 0
+        if app.basket.call():
+            total_price = app.basket.get_total_price()
+            if total_price:
+                total_price_new = total_price
+                if app.basket.add_item():
+                    total_price_new = app.basket.get_total_price()
+                    if total_price_new == 2 * total_price:
+                        if app.basket.remove_item():
+                            total_price_new = app.basket.get_total_price()
+        assert total_price_new == total_price

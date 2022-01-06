@@ -8,13 +8,25 @@ class BasketLocators:
     BASKET_CAPTION = (By.CSS_SELECTOR, "li.collection-item")
     BASKET_REMOVE_ITEM = (
         By.XPATH,
-        ".//i[@class = 'material-icons basket-quantity' and text()='remove'",
+        ".//i[@class = 'material-icons basket-quantity' and text()='remove']",
     )
+    # BASKET_ADD_ITEM = (By.CSS_SELECTOR, "i.material-icons.basket-quantity")
     BASKET_ADD_ITEM = (
         By.XPATH,
-        ".//i[@class = 'material-icons basket-quantity' and text()='add'",
+        ".//i[@class = 'material-icons basket-quantity' and text()='add']",
     )
-    BASKET_CLOSE_ITEM = (
+    BASKET_CLOSE_ITEM = (By.CSS_SELECTOR, "span.secondary-content")
+    # BASKET_CLOSE_ITEM = (
+    #     By.XPATH,
+    #     ".//i[@class = 'material-icons basket-delete' and text()='close']",
+    # )
+    BASKET_CLOSE = (By.CSS_SELECTOR, "i.material-icons.basket-close")
+    # BASKET_CLOSE = (
+    #     By.XPATH,
+    #     ".//i[@class = 'material-icons basket-close' and text()='close']",
+    # )
+    # BASKET_TOTAL_PRICE = (By.CSS_SELECTOR, "li.collection-item.active")
+    BASKET_TOTAL_PRICE = (
         By.XPATH,
-        ".//i[@class = 'material-icons basket-delete' and text()='close'",
+        ".//li[@class = 'collection-item active' and contains(text(),'Total price')]",
     )

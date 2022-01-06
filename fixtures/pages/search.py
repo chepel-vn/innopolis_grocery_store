@@ -62,9 +62,8 @@ class SearchPage(BasePage):
         try:
             if not self.is_get_ready_to_test():
                 self._prepare_button().click()
-
-            self._search_input().send_keys(data.search_string)
             if self.is_get_ready_to_buy():
+                self._search_input().send_keys(data.search_string)
                 self._search_button().click()
         except TimeoutError:
             logger.warning(

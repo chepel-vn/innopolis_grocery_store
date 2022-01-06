@@ -21,26 +21,49 @@ class BasketPage(BasePage):
                 result = int(element.text)
         return result
 
+    def get_total_price(self):
+        result = 0
+        element = self.custom_find_element(BL.BASKET_TOTAL_PRICE, 5)
+        if element:
+            str = element.text.strip()
+            if len(str) > 0:
+                str = str.split(":")[1].strip()
+                str = str.split(" ")
+                result = int(str[0])
+        return result
+
     def call(self):
-        try:
-            element = self.custom_find_element(BL.CART, 3)
-            if element:
-                element.click()
-        except Exception:
-            result = 1
-        else:
-            result = 0
-        finally:
-            return result
+        element = self.custom_find_element(BL.BASKET, 3)
+        if element:
+            element.click()
+            return element
 
     def buy(self):
-        try:
-            element = self.custom_find_element(BL.BUY_BTN, 3)
-            if element:
-                element.click()
-        except Exception:
-            result = 1
-        else:
-            result = 0
-        finally:
-            return result
+        element = self.custom_find_element(BL.BUY_BTN, 3)
+        if element:
+            element.click()
+            return element
+
+    def add_item(self):
+        element = self.custom_find_element(BL.BASKET_ADD_ITEM, 3)
+        if element:
+            element.click()
+            return element
+
+    def remove_item(self):
+        element = self.custom_find_element(BL.BASKET_REMOVE_ITEM, 3)
+        if element:
+            element.click()
+            return element
+
+    def close_item(self):
+        element = self.custom_find_element(BL.BASKET_CLOSE_ITEM, 3)
+        if element:
+            element.click()
+            return element
+
+    def close(self):
+        element = self.custom_find_element(BL.BASKET_CLOSE, 3)
+        if element:
+            element.click()
+            return element

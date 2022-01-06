@@ -3308,3 +3308,42 @@ DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
 DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://localhost:64282/session/0a7c8437a24ea7f0db4952e719c7091b {}
 DEBUG:urllib3.connectionpool:http://localhost:64282 "DELETE /session/0a7c8437a24ea7f0db4952e719c7091b HTTP/1.1" 200 14
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:test_search:Searching by 'apples'.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:test_search:Searching by 'AjSkbHHrZGHCzeRdHzth'.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:test_search:Searching by 'EemABUnUJzZgcOjCCwYv'.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:test_search:Searching by 'apples'.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.

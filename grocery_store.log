@@ -3333,3 +3333,60 @@ INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chro
 INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
 INFO:test_search:Searching by 'apples'.
 INFO:test_search:Searching by 'yuIHSUcyTHEdASYqpnfu'.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Trying to download new driver from https://chromedriver.storage.googleapis.com/96.0.4664.45/chromedriver_win32.zip
+INFO:WDM:Driver has been saved in cache [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45]
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:test_search:Searching by 'apples'.
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))': /session/ff2013f46da83070d80e30a42d9c325b/source
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DAE9E81700>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/ff2013f46da83070d80e30a42d9c325b
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:test_search:Searching by 'apples'.
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))': /session/506b40fbc2fa38623a05c5d9f95635c9/source
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219A1C8ECA0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/506b40fbc2fa38623a05c5d9f95635c9/source
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219A1C8E9A0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/506b40fbc2fa38623a05c5d9f95635c9/source
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219A35FEB50>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/506b40fbc2fa38623a05c5d9f95635c9/url
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219A35FE970>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/506b40fbc2fa38623a05c5d9f95635c9/url
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219A35FE790>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/506b40fbc2fa38623a05c5d9f95635c9/url
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219A37EE8B0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/506b40fbc2fa38623a05c5d9f95635c9/url
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219A37EE850>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/506b40fbc2fa38623a05c5d9f95635c9/url
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219A37EE400>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/506b40fbc2fa38623a05c5d9f95635c9/url
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219A3801B50>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/506b40fbc2fa38623a05c5d9f95635c9
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219A38019A0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/506b40fbc2fa38623a05c5d9f95635c9
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000219A38017C0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/506b40fbc2fa38623a05c5d9f95635c9
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:test_search:Searching by 'apples'.
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))': /session/0189d780cc570550512b424a3dea5ebf/source
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FC8DCDEB80>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/0189d780cc570550512b424a3dea5ebf/source
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FC8FAD5580>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/0189d780cc570550512b424a3dea5ebf
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FC8FAD54C0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/0189d780cc570550512b424a3dea5ebf
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FC8FAD5340>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/0189d780cc570550512b424a3dea5ebf
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000256381CECA0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/245c32fa11b20e03df6abc93b01345cb/source
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000256381CE310>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/245c32fa11b20e03df6abc93b01345cb/source
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000256381CE7C0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/245c32fa11b20e03df6abc93b01345cb/source
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025639E4AA60>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/245c32fa11b20e03df6abc93b01345cb
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025639E4AF70>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/245c32fa11b20e03df6abc93b01345cb
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025639E4A130>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/245c32fa11b20e03df6abc93b01345cb

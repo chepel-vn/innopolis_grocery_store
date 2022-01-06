@@ -21,6 +21,10 @@ class SearchPage(BasePage):
         buy_button = self.custom_find_element(LC.BUY_BTN)
         return buy_button
 
+    def _prepare_button(self) -> WebElement:
+        buy_button = self.custom_find_element(LC.PREPARE_BTN, 0.5)
+        return buy_button
+
     def is_empty_search(self) -> WebElement:
         element = self.custom_find_element(LC.SEARCH_EMPTY)
         return type(element) == WebElement
@@ -37,6 +41,18 @@ class SearchPage(BasePage):
         finally:
             return result
 
+    def is_get_ready_to_test(self) -> WebElement:
+        result = False
+        try:
+            result = type(self._prepare_button()) != WebElement
+        except TimeoutError:
+            logger.warning(
+                "Выход из процедуры проверки готовности к "
+                "проведению теста по истечении времени ожидания."
+            )
+        finally:
+            return result
+
     def buy_any_goods(self):
         if self.is_get_ready_to_buy():
             self._buy_button().click()
@@ -44,6 +60,9 @@ class SearchPage(BasePage):
     def search(self, data: SearchData):
         result = 1
         try:
+            if not self.is_get_ready_to_test():
+                self._prepare_button().click()
+
             self._search_input().send_keys(data.search_string)
             if self.is_get_ready_to_buy():
                 self._search_button().click()

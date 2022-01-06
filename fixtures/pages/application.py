@@ -14,3 +14,4 @@ class Application:
 
     def open_page(self):
         self.driver.get(self.url)
+

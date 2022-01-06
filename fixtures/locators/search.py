@@ -7,3 +7,4 @@ class SearchLocators:
     SEARCH_BTN = (By.CLASS_NAME, "btn.search-btn")
     BUY_BTN = (By.XPATH, ".//button[text() = 'Buy']")
     SEARCH_EMPTY = (By.XPATH, f"//h3[text() = '{SC.SEARCH_IS_EMPTY}']")
+    PREPARE_BTN = (By.XPATH, ".//button[text() = 'Prepere data']")

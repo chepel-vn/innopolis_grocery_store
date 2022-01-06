@@ -429,7 +429,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 02-Jan-2022 at 17:36:14 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 06-Jan-2022 at 21:41:29 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -440,13 +440,13 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Windows-10-10.0.19042-SP0</td></tr>
       <tr>
         <td>Plugins</td>
-        <td>{"Faker": "11.1.0", "html": "3.1.1", "metadata": "1.11.0"}</td></tr>
+        <td>{"Faker": "11.1.0", "allure-pytest": "2.9.45", "html": "3.1.1", "metadata": "1.11.0"}</td></tr>
       <tr>
         <td>Python</td>
         <td>3.9.7</td></tr></table>
     <h2>Summary</h2>
-    <p>2 tests ran in 7.22 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>1 tests ran in 68.64 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -457,33 +457,26 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="failed results-table-row">
+      <tbody class="passed results-table-row">
         <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">tests/searching/test_search.py::TestSearch::test_search_random</td>
-          <td class="col-duration">3.96</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">tests/searching/test_search.py::TestSearch::test_search_some_exists_goods</td>
+          <td class="col-duration">8.17</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">self = &lt;test_search.TestSearch object at 0x00000249EF741610&gt;, app = &lt;fixtures.pages.application.Application object at 0x00000249EF76E040&gt;<br/><br/>&gt;   ???<br/><span class="error">E   assert &#x27;Nothing here, see github&#x27; in &#x27;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;link rel=&quot;icon&quot; href=&quot;/online-grocery-store/favicon.ico&quot;&gt;&lt;meta name=&quot;vie...ript&gt;&lt;script src=&quot;/online-grocery-store/static/js/main.592bd638.chunk.js&quot; wfd-invisible=&quot;true&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;&#x27;</span><br/><span class="error">E    +  where &#x27;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;link rel=&quot;icon&quot; href=&quot;/online-grocery-store/favicon.ico&quot;&gt;&lt;meta name=&quot;vie...ript&gt;&lt;script src=&quot;/online-grocery-store/static/js/main.592bd638.chunk.js&quot; wfd-invisible=&quot;true&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;&#x27; = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session=&quot;8790d86b38c98f62ba2f77ab3c496d9a&quot;)&gt;.page_source</span><br/><span class="error">E    +    where &lt;selenium.webdriver.chrome.webdriver.WebDriver (session=&quot;8790d86b38c98f62ba2f77ab3c496d9a&quot;)&gt; = &lt;fixtures.pages.application.Application object at 0x00000249EF76E040&gt;.driver</span><br/><br/>C:\python\grocery_store\tests\registration\test_search.py:17: AssertionError<br/> -----------------------------Captured stderr setup------------------------------ <br/>
+            <div class="log"> -----------------------------Captured stderr setup------------------------------ <br/>
 
 ====== WebDriver manager ======
 Current google-chrome version is 96.0.4664
 Get LATEST chromedriver version for 96.0.4664 google-chrome
-Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-<br/> -------------------------------Captured log setup------------------------------- <br/>2022-01-02 17:36:07 INFO
+Trying to download new driver from https://chromedriver.storage.googleapis.com/96.0.4664.45/chromedriver_win32.zip
+Driver has been saved in cache [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45]
+<br/> -------------------------------Captured log setup------------------------------- <br/>2022-01-06 21:40:20 INFO 
 
-2022-01-02 17:36:07 INFO ====== WebDriver manager ======
-2022-01-02 17:36:07 INFO Current google-chrome version is 96.0.4664
-2022-01-02 17:36:07 INFO Get LATEST chromedriver version for 96.0.4664 google-chrome
-2022-01-02 17:36:07 INFO Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-2022-01-02 17:36:09 INFO Start app on https://berpress.github.io/online-grocery-store/.<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">tests/searching/test_search.py::TestSearch::test_search_some_goods</td>
-          <td class="col-duration">2.82</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>2022-01-02 17:36:11 INFO Searching by &#x27;apples&#x27;.<br/></div></td></tr></tbody></table></body></html>
+2022-01-06 21:40:20 INFO ====== WebDriver manager ======
+2022-01-06 21:40:21 INFO Current google-chrome version is 96.0.4664
+2022-01-06 21:40:21 INFO Get LATEST chromedriver version for 96.0.4664 google-chrome
+2022-01-06 21:40:23 INFO Trying to download new driver from https://chromedriver.storage.googleapis.com/96.0.4664.45/chromedriver_win32.zip
+2022-01-06 21:40:25 INFO Driver has been saved in cache [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45]
+2022-01-06 21:40:29 INFO Start app on https://berpress.github.io/online-grocery-store/.<br/></div></td></tr></tbody></table></body></html>

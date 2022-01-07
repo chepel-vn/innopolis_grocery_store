@@ -4,7 +4,7 @@ from fixtures.pages.base_page import BasePage
 from fixtures.locators.basket import BasketLocators as BL
 from selenium.webdriver.remote.webelement import WebElement
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("grocery_store")
 
 
 class BasketPage(BasePage):
@@ -12,7 +12,7 @@ class BasketPage(BasePage):
         buy_button = self.custom_find_element(BL.BUY_BTN)
         return buy_button
 
-    def get_cart_quantity(self):
+    def get_quantity(self):
         element = self.custom_find_element(BL.BASKET_QUANTITY, 3)
         if not element:
             result = 0
@@ -33,37 +33,19 @@ class BasketPage(BasePage):
         return result
 
     def call(self):
-        element = self.custom_find_element(BL.BASKET, 3)
-        if element:
-            element.click()
-            return element
+        return self.custom_click_element(BL.BASKET, 3)
 
     def buy(self):
-        element = self.custom_find_element(BL.BUY_BTN, 3)
-        if element:
-            element.click()
-            return element
+        return self.custom_click_element(BL.BUY_BTN, 3)
 
     def add_item(self):
-        element = self.custom_find_element(BL.BASKET_ADD_ITEM, 3)
-        if element:
-            element.click()
-            return element
+        return self.custom_click_element(BL.BASKET_ADD_ITEM, 3)
 
     def remove_item(self):
-        element = self.custom_find_element(BL.BASKET_REMOVE_ITEM, 3)
-        if element:
-            element.click()
-            return element
+        return self.custom_click_element(BL.BASKET_REMOVE_ITEM, 3)
 
     def close_item(self):
-        element = self.custom_find_element(BL.BASKET_CLOSE_ITEM, 3)
-        if element:
-            element.click()
-            return element
+        return self.custom_click_element(BL.BASKET_CLOSE_ITEM, 3)
 
     def close(self):
-        element = self.custom_find_element(BL.BASKET_CLOSE, 3)
-        if element:
-            element.click()
-            return element
+        return self.custom_click_element(BL.BASKET_CLOSE, 3)

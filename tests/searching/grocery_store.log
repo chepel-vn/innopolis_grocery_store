@@ -3,424 +3,95 @@ INFO:WDM:
 INFO:WDM:====== WebDriver manager ======
 INFO:WDM:Current google-chrome version is 96.0.4664
 INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:test_search:Searching by 'apples'.
 INFO:WDM:
 
 INFO:WDM:====== WebDriver manager ======
 INFO:WDM:Current google-chrome version is 96.0.4664
 INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
 INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:test_search:Searching by 'apples'.
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Searching by 'apples'.
 INFO:WDM:
 
 INFO:WDM:====== WebDriver manager ======
 INFO:WDM:Current google-chrome version is 96.0.4664
 INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
 INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Searching by 'apples'.
 INFO:WDM:
 
 INFO:WDM:====== WebDriver manager ======
 INFO:WDM:Current google-chrome version is 96.0.4664
 INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
 INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Searching by 'apples' isn't done.
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))': /session/790b85404ec8cdcece138bc5fe5a4a9f/source
 INFO:WDM:
 
 INFO:WDM:====== WebDriver manager ======
 INFO:WDM:Current google-chrome version is 96.0.4664
 INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
 INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
 INFO:WDM:
 
 INFO:WDM:====== WebDriver manager ======
 INFO:WDM:Current google-chrome version is 96.0.4664
 INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
 INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DD1CF5ED90>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/58553b6da6ead2b871f8571203f15a1f
-WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DD1E1D4250>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/58553b6da6ead2b871f8571203f15a1f
-WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DD1E1D4610>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/58553b6da6ead2b871f8571203f15a1f
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Searching by 'apples'.
 INFO:WDM:
 
 INFO:WDM:====== WebDriver manager ======
 INFO:WDM:Current google-chrome version is 96.0.4664
 INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
 INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Searching by 'apples'.
 INFO:WDM:
 
 INFO:WDM:====== WebDriver manager ======
 INFO:WDM:Current google-chrome version is 96.0.4664
 INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
 INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
 INFO:WDM:
 
 INFO:WDM:====== WebDriver manager ======
 INFO:WDM:Current google-chrome version is 96.0.4664
 INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
 INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F183A076A0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/6bd676302073635d7c1ee508713c7250
-WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F183BAE730>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/6bd676302073635d7c1ee508713c7250
-WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F183BAE190>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/6bd676302073635d7c1ee508713c7250
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Searching by 'gHyuFfFfBoTCmYNHEeRf'.
 INFO:WDM:
 
 INFO:WDM:====== WebDriver manager ======
 INFO:WDM:Current google-chrome version is 96.0.4664
 INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
 INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Trying to download new driver from https://chromedriver.storage.googleapis.com/96.0.4664.45/chromedriver_win32.zip
-INFO:WDM:Driver has been saved in cache [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45]
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
 INFO:WDM:
 
 INFO:WDM:====== WebDriver manager ======
 INFO:WDM:Current google-chrome version is 96.0.4664
 INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
 INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
 INFO:WDM:
 
 INFO:WDM:====== WebDriver manager ======
 INFO:WDM:Current google-chrome version is 96.0.4664
 INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
 INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
 INFO:WDM:
 
 INFO:WDM:====== WebDriver manager ======
 INFO:WDM:Current google-chrome version is 96.0.4664
 INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
 INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C9715D430>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/9fa0531183aaf17c836eb17f7ec5478a
-WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C986AD2B0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/9fa0531183aaf17c836eb17f7ec5478a
-WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028C9750E100>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/9fa0531183aaf17c836eb17f7ec5478a
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019C57A7CF10>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение')': /session/c40cc7d9c2600a4b4104ec020172c4ac
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:conftest:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:total_price_new='0; total_price=0'.

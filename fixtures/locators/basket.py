@@ -1,10 +1,12 @@
 from selenium.webdriver.common.by import By
+from fixtures.consts.basket import BasketConsts as BC
 
 
 class BasketLocators:
     BASKET_QUANTITY = (By.CLASS_NAME, "cart-quantity")
     BASKET = (By.CSS_SELECTOR, "i.material-icons")
-    BUY_BTN = (By.CLASS_NAME, "btn red btn-small")
+    # BUY_BTN = (By.CLASS_NAME, "btn red btn-small")
+    BUY_BTN = (By.XPATH, ".//button[text() = 'Buy']")
     BASKET_CAPTION = (By.CSS_SELECTOR, "li.collection-item")
     BASKET_REMOVE_ITEM = (
         By.XPATH,
@@ -28,5 +30,6 @@ class BasketLocators:
     # BASKET_TOTAL_PRICE = (By.CSS_SELECTOR, "li.collection-item.active")
     BASKET_TOTAL_PRICE = (
         By.XPATH,
-        ".//li[@class = 'collection-item active' and contains(text(),'Total price')]",
+        f".//li[@class = 'collection-item active' "
+        f"and contains(text(), '{BC.TOTAL_PRICE}')]",
     )

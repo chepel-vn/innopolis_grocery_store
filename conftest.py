@@ -7,7 +7,7 @@ from fixtures.pages.application import Application
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 
-logging.basicConfig(filename="./grocery_store.log", level=logging.WARNING)
+logging.basicConfig(filename="./grocery_store.log", level=logging.INFO)
 logger = logging.getLogger("grocery_store")
 
 

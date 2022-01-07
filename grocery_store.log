@@ -6,8 +6,9 @@ INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
 INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
 INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
 INFO:grocery_store:Searching by 'apples'.
-INFO:grocery_store:Searching by 'VRPqXKrQmmfYIiHhVBGu'.
-INFO:grocery_store:total_price_new='99; total_price=99'.
+INFO:grocery_store:Searching by 'HzMDxZIjbuhjYVyEMQAU'.
+INFO:grocery_store:total_price_new=99; total_price=99.
+INFO:grocery_store:total_price_new=99; total_price=99.
 INFO:WDM:
 
 INFO:WDM:====== WebDriver manager ======
@@ -16,5 +17,283 @@ INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
 INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
 INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
 INFO:grocery_store:Searching by 'apples'.
-INFO:grocery_store:Searching by 'jfksHREUWMyMVPOekNix'.
-INFO:grocery_store:total_price_new='99; total_price=99'.
+INFO:grocery_store:Searching by 'UXHbvnBJpQcZAJoQMraM'.
+INFO:grocery_store:total_price_new=99; total_price=99.
+INFO:grocery_store:total_price_new=99; total_price=99.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:11 element.text =SEARCH.
+INFO:grocery_store:Searching by 'apples'.
+INFO:grocery_store:11 element.text =SEARCH.
+INFO:grocery_store:Searching by 'hciUvjGokgzzDRwieEnY'.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =close.
+INFO:grocery_store:11 element.text =close.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =add.
+INFO:grocery_store:element.text =add.
+INFO:grocery_store:total_price_new=198; total_price=99.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =add.
+INFO:grocery_store:element.text =add.
+INFO:grocery_store:11 element.text =remove.
+INFO:grocery_store:total_price_new=99; total_price=99.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:11 element.text =SEARCH.
+INFO:grocery_store:Searching by 'apples'.
+INFO:grocery_store:11 element.text =SEARCH.
+INFO:grocery_store:Searching by 'DnlOAjzQwKEGgVisjjON'.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =close.
+INFO:grocery_store:11 element.text =close.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =add.
+INFO:grocery_store:element.text =add.
+INFO:grocery_store:total_price_new=198; total_price=99.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =add.
+INFO:grocery_store:element.text =add.
+INFO:grocery_store:11 element.text =remove.
+INFO:grocery_store:total_price_new=99; total_price=99.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:11 element.text =SEARCH.
+INFO:grocery_store:Searching by 'apples'.
+INFO:grocery_store:11 element.text =SEARCH.
+INFO:grocery_store:Searching by 'cfcHKBrRVwujOmStZqld'.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =close.
+INFO:grocery_store:11 element.text =close.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =add.
+INFO:grocery_store:element.text =add.
+INFO:grocery_store:total_price_new=99; total_price=99.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =add.
+INFO:grocery_store:element.text =add.
+INFO:grocery_store:total_price_new=99; total_price=99.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:11 element.text =SEARCH.
+INFO:grocery_store:Searching by 'apples'.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:11 element.text =SEARCH.
+INFO:grocery_store:Searching by 'IxpkKstNvlgjoGtRNVal'.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:11 element.text =BUY.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =close.
+INFO:grocery_store:11 element.text =close.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =add.
+INFO:grocery_store:element.text =add.
+INFO:grocery_store:total_price_new=99; total_price=99.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =add.
+INFO:grocery_store:element.text =add.
+INFO:grocery_store:total_price_new=99; total_price=99.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:11 element.text =SEARCH.
+INFO:grocery_store:Searching by 'apples'.
+INFO:grocery_store:11 element.text =SEARCH.
+INFO:grocery_store:Searching by 'APtEHOlqDexluOgLqxbi'.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =close.
+INFO:grocery_store:11 element.text =close.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =add.
+INFO:grocery_store:element.text =add.
+INFO:grocery_store:total_price_new=198; total_price=99.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =add.
+INFO:grocery_store:element.text =add.
+INFO:grocery_store:11 element.text =remove.
+INFO:grocery_store:total_price_new=99; total_price=99.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:11 element.text =SEARCH.
+INFO:grocery_store:Searching by 'apples'.
+INFO:grocery_store:11 element.text =SEARCH.
+INFO:grocery_store:Searching by 'NCZfdvRgHPQdcPXOZrfk'.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =close.
+INFO:grocery_store:11 element.text =close.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =add.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =add.
+INFO:grocery_store:11 element.text =remove.
+INFO:grocery_store:total_price_new=99; total_price=99.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:11 element.text =SEARCH.
+INFO:grocery_store:Searching by 'apples'.
+INFO:grocery_store:11 element.text =SEARCH.
+INFO:grocery_store:Searching by 'CTFUJCFzFolAorYmBayV'.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =close.
+INFO:grocery_store:11 element.text =close.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =add.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =add.
+INFO:grocery_store:11 element.text =remove.
+INFO:grocery_store:total_price_new=99; total_price=99.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:11 element.text =SEARCH.
+INFO:grocery_store:Searching by 'apples'.
+INFO:grocery_store:11 element.text =SEARCH.
+INFO:grocery_store:Searching by 'LpJWUFEJRBloXJznqSqE'.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =close.
+INFO:grocery_store:11 element.text =close.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =add.
+INFO:grocery_store:11 element.text =BUY.
+INFO:grocery_store:11 element.text =shopping_cart.
+INFO:grocery_store:11 element.text =add.
+INFO:grocery_store:11 element.text =remove.
+INFO:grocery_store:total_price_new=99; total_price=99.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Searching by 'apples'.
+INFO:grocery_store:Searching by 'BhEQZiONJufzyJzObEeF'.
+INFO:grocery_store:total_price_new=99; total_price=99.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Searching by 'apples'.
+INFO:grocery_store:Searching by 'HwMhfKIPsrxGHMFXeofI'.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Searching by 'apples'.
+INFO:grocery_store:Searching by 'ogrxdNdHyCJicxSCsPGy'.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Searching by 'apples'.
+INFO:grocery_store:Searching by 'sxvzDxkBSvzKJPAJGBlH'.

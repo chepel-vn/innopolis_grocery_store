@@ -25,7 +25,7 @@ def app(request):
     url = request.config.getoption("--url")
     s = Service(ChromeDriverManager().install())
     chrome_options = Options()
-    # chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--headless")
     # chrome_options.add_argument("--no-sandbox")
     # chrome_options.add_argument("--disable-dev-shm-usage")
     driver = webdriver.Chrome(service=s, options=chrome_options)

@@ -1,0 +1,20 @@
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Searching by 'apples'.
+INFO:grocery_store:Searching by 'VRPqXKrQmmfYIiHhVBGu'.
+INFO:grocery_store:total_price_new='99; total_price=99'.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
+INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+INFO:grocery_store:Searching by 'apples'.
+INFO:grocery_store:Searching by 'jfksHREUWMyMVPOekNix'.
+INFO:grocery_store:total_price_new='99; total_price=99'.

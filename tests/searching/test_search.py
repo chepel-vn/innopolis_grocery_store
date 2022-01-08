@@ -67,8 +67,24 @@ class TestSearch:
         total_price_new = 0
         app.open_page()
         if app.searching.buy_any_goods():
-            element = app.basket.call()
-            if element:
+            if app.basket.call():
+                total_price = app.basket.get_total_price()
+                if total_price:
+                    total_price_new = total_price
+                    if app.basket.add_item():
+                        total_price_new = app.basket.get_total_price()
+        # logger.info(f"total_price_new={total_price_new}; total_price={total_price}.")
+        assert total_price_new == 2 * total_price
+
+    def test_add_to_basket_the_same_goods1(self, app):
+        """
+        Check of situation with add the same goods to the basket
+        """
+        total_price = 0
+        total_price_new = 0
+        app.open_page()
+        if app.searching.buy_any_goods():
+            if app.basket.call():
                 total_price = app.basket.get_total_price()
                 if total_price:
                     total_price_new = total_price

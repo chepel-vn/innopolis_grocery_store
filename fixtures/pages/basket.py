@@ -22,6 +22,10 @@ class BasketPage(BasePage):
                 result = int(element.text)
         return result
 
+    def is_pay(self):
+        element = self.custom_find_element(BL.BASKET_PAYED, 3)
+        return element
+
     def get_total_price(self):
         result = 0
         answer = self.custom_find_text_in_element(BL.BASKET_TOTAL_PRICE, BC.TOTAL_PRICE)

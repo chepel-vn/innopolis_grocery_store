@@ -2,7 +2,6 @@ import logging
 
 from fixtures.models.search import SearchData
 
-MSG_NO_FOUND = "Nothing here, see github"
 
 logger = logging.getLogger("grocery_store")
 
@@ -37,7 +36,7 @@ class TestSearch:
 
     def test_add_to_basket_some_goods(self, app):
         """
-        Check of situation with add to cart some goods
+        Check of situation with add to basket some goods
         """
         app.open_page()
         basket_quantity = app.basket.get_quantity()
@@ -62,7 +61,7 @@ class TestSearch:
 
     def test_add_to_basket_the_same_goods(self, app):
         """
-        Check of situation with add the same goods from the basket
+        Check of situation with add the same goods to the basket
         """
         total_price = 0
         total_price_new = 0
@@ -74,14 +73,13 @@ class TestSearch:
                 if total_price:
                     total_price_new = total_price
                     if app.basket.add_item():
-                        # time.sleep(10)
                         total_price_new = app.basket.get_total_price()
         # logger.info(f"total_price_new={total_price_new}; total_price={total_price}.")
         assert total_price_new == 2 * total_price
 
     def test_remove_from_basket_the_same_goods(self, app):
         """
-        Check of situation with add the same goods from the basket
+        Check of situation with remove the same goods from the basket
         """
         app.open_page()
         if app.searching.buy_any_goods():
@@ -98,3 +96,16 @@ class TestSearch:
                                 total_price_new = app.basket.get_total_price()
         # logger.info(f"total_price_new={total_price_new}; total_price={total_price}.")
         assert total_price_new == total_price
+
+    def test_buy_from_basket(self, app):
+        """
+        Check of situation with remove the same goods from the basket
+        """
+        result = False
+        app.open_page()
+        if app.searching.buy_any_goods():
+            if app.basket.call():
+                if app.basket.buy():
+                    if app.basket.is_pay():
+                        result = True
+        assert result

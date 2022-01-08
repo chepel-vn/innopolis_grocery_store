@@ -8,6 +8,7 @@ class BasketLocators:
     # BUY_BTN = (By.CLASS_NAME, "btn red btn-small")
     BUY_BTN = (By.XPATH, ".//button[text() = 'Buy']")
     BASKET_CAPTION = (By.CSS_SELECTOR, "li.collection-item")
+    BASKET_PAYED = (By.CLASS_NAME, "toast")
     BASKET_REMOVE_ITEM = (
         By.XPATH,
         ".//i[@class = 'material-icons basket-quantity' and text()='remove']",

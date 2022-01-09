@@ -39,6 +39,8 @@ class SearchPage(BasePage):
 
     def _prepare_button_click(self) -> WebElement:
         prepare_button = self.custom_click_element(LC.PREPARE_BTN, 1)
+        if prepare_button:
+            self.app.open_page()
         return prepare_button
 
     def is_empty_search(self) -> WebElement:

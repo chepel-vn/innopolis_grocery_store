@@ -5,7 +5,11 @@ INFO:WDM:Current google-chrome version is 96.0.4664
 INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
 INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
 INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:grocery_store:Searching by 'uJDAABICbcQDvaLVCSdD' isn't done.
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 96.0.4664
+INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
 INFO:WDM:
 
 INFO:WDM:====== WebDriver manager ======
@@ -13,64 +17,7 @@ INFO:WDM:Current google-chrome version is 96.0.4664
 INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
 INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
 INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:grocery_store:Searching by 'apples'.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Trying to download new driver from https://chromedriver.storage.googleapis.com/96.0.4664.45/chromedriver_win32.zip
-INFO:WDM:Driver has been saved in cache [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45]
-INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
-INFO:WDM:
-
-INFO:WDM:====== WebDriver manager ======
-INFO:WDM:Current google-chrome version is 96.0.4664
-INFO:WDM:Get LATEST chromedriver version for 96.0.4664 google-chrome
-INFO:WDM:Driver [C:\Users\Asus\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
-INFO:grocery_store:Start app on https://berpress.github.io/online-grocery-store/.
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))': /session/f9f99e186baa870a3586e001b2d268d8
 INFO:WDM:
 
 INFO:WDM:====== WebDriver manager ======

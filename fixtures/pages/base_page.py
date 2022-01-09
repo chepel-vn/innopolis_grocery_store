@@ -53,7 +53,6 @@ class BasePage:
                 f"по истечении времени ожидания."
             )
         else:
-            # logger.info(f"11 element.text ={element.text}.")
             if element:
                 element.click()
         finally:

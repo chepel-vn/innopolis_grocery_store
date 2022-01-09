@@ -48,7 +48,6 @@ class BasketPage(BasePage):
 
     def add_item(self):
         element = self.custom_click_element(BL.BASKET_ADD_ITEM, 3)
-        # logger.info(f"element.text ={element.text}.")
         return element
 
     def remove_item(self):

@@ -72,25 +72,11 @@ class TestSearch:
                 if total_price:
                     total_price_new = total_price
                     if app.basket.add_item():
+                        logger.debug(
+                            f"total_price_new={total_price_new}; "
+                            f"total_price={total_price}."
+                        )
                         total_price_new = app.basket.get_total_price()
-        # logger.info(f"total_price_new={total_price_new}; total_price={total_price}.")
-        assert total_price_new == 2 * total_price
-
-    def test_add_to_basket_the_same_goods1(self, app):
-        """
-        Check of situation with add the same goods to the basket
-        """
-        total_price = 0
-        total_price_new = 0
-        app.open_page()
-        if app.searching.buy_any_goods():
-            if app.basket.call():
-                total_price = app.basket.get_total_price()
-                if total_price:
-                    total_price_new = total_price
-                    if app.basket.add_item():
-                        total_price_new = app.basket.get_total_price()
-        # logger.info(f"total_price_new={total_price_new}; total_price={total_price}.")
         assert total_price_new == 2 * total_price
 
     def test_remove_from_basket_the_same_goods(self, app):
@@ -108,9 +94,13 @@ class TestSearch:
                     if app.basket.add_item():
                         total_price_new = app.basket.get_total_price()
                         if total_price_new == 2 * total_price:
+                            logger.debug(
+                                f"total_price_new={total_price_new}; total"
+                                f"_price={total_price}."
+                            )
                             if app.basket.remove_item():
                                 total_price_new = app.basket.get_total_price()
-        # logger.info(f"total_price_new={total_price_new}; total_price={total_price}.")
+
         assert total_price_new == total_price
 
     def test_buy_from_basket(self, app):

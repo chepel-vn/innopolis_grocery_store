@@ -59,26 +59,6 @@ class TestSearch:
 
         assert basket_quantity == basket_quantity_new + 1
 
-    def test_add_to_basket_the_same_goods(self, app):
-        """
-        Check of situation with add the same goods to the basket
-        """
-        total_price = 0
-        total_price_new = 0
-        app.open_page()
-        if app.searching.buy_any_goods():
-            if app.basket.call():
-                total_price = app.basket.get_total_price()
-                if total_price:
-                    total_price_new = total_price
-                    if app.basket.add_item():
-                        logger.debug(
-                            f"total_price_new={total_price_new}; "
-                            f"total_price={total_price}."
-                        )
-                        total_price_new = app.basket.get_total_price()
-        assert total_price_new == 2 * total_price
-
     def test_remove_from_basket_the_same_goods(self, app):
         """
         Check of situation with remove the same goods from the basket
@@ -115,3 +95,23 @@ class TestSearch:
                     if app.basket.is_pay():
                         result = True
         assert result
+
+    def test_add_to_basket_the_same_goods(self, app):
+        """
+        Check of situation with add the same goods to the basket
+        """
+        total_price = 0
+        total_price_new = 0
+        app.open_page()
+        if app.searching.buy_any_goods():
+            if app.basket.call():
+                total_price = app.basket.get_total_price()
+                if total_price:
+                    total_price_new = total_price
+                    if app.basket.add_item():
+                        logger.debug(
+                            f"total_price_new={total_price_new}; "
+                            f"total_price={total_price}."
+                        )
+                        total_price_new = app.basket.get_total_price()
+        assert total_price_new == 2 * total_price
